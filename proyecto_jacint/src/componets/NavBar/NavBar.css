@@ -1,0 +1,54 @@
+.navBar {
+  max-width: 100%;
+  width: 1500px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLogo {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  flex-basis: 25%;
+}
+
+.navMenu {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: space-around;
+  text-transform: uppercase;
+  /* font-family: "Cinzel", serif; */
+}
+
+.icons {
+  flex-basis: 25%;
+  text-align: right;
+}
+
+.icons i {
+  color: #000;
+  font-size: 25px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.icons i:hover {
+  transform: scale(1.2);
+  color: #3dd7f2;
+}
+
+.icons i .span-0 {
+  padding: 2px 7px;
+  position: relative;
+  top: -20px;
+  left: -5px;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: #f1c357;
+  border-radius: 50%;
+  color: #232323;
+}
