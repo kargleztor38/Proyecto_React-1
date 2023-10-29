@@ -15,12 +15,10 @@
   flex-basis: 25%;
 }
 
-.navMenu {
-  display: flex;
-  flex-basis: 50%;
-  justify-content: space-around;
+button {
+  padding: 7px 12px;
+  border-radius: 5px;
   text-transform: uppercase;
-  /* font-family: "Cinzel", serif; */
 }
 
 .icons {
